@@ -1,0 +1,23 @@
+﻿# 标记公共字段
+basepath: 'D:\airtest01\冒烟测试用例\zj1921\zj1921\base'
+
+# 测试环境
+machine_name: A3楼
+
+# MQ相关信息
+body_text:
+ timestamp: null
+ project: zj1921
+ caseName: null
+ sn: E04I12345B164Q0V0059
+ # action包含start, stop, recharge, pause, resume
+ action: start
+ # workFromCharger包含false, true.判断主机是否从充电座出发
+ workFromCharger: False
+ # workType包含sweep, mop, powermop, video
+ workType: sweep
+ # sweepMode包含auto, zone, custom 
+ sweepMode: auto 
+ # advanceMode包含false, true.是否开启高级模式
+ advanceMode: True       
+ 

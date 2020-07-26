@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Sweep</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Sweep</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:e%3A%5Cprogramming%5Cairtest%5Cairtest%5Cscript%5Csweep.air%5Csweep.py">e:\programming\airtest\airtest\script\sweep.air\sweep.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;-*-&nbsp;encoding=utf8&nbsp;-*-</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="UniversalModule.html">UniversalModule</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="time.html">time</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-cancel_sweep"><strong>cancel_sweep</strong></a>()</dt><dd><tt>结束任务</tt></dd></dl>
+ <dl><dt><a name="-change_to_auto_sweep"><strong>change_to_auto_sweep</strong></a>()</dt><dd><tt>点击自动，切换到自动清扫页面</tt></dd></dl>
+ <dl><dt><a name="-change_to_custom_sweep"><strong>change_to_custom_sweep</strong></a>()</dt><dd><tt>点击自定义，切换到自定义清扫</tt></dd></dl>
+ <dl><dt><a name="-change_to_zone_sweep"><strong>change_to_zone_sweep</strong></a>()</dt><dd><tt>点击区域，切换到区域清扫</tt></dd></dl>
+ <dl><dt><a name="-check_auto_btn_exist"><strong>check_auto_btn_exist</strong></a>(expectation)</dt><dd><tt>检查auto按钮存在</tt></dd></dl>
+ <dl><dt><a name="-check_deebot_status"><strong>check_deebot_status</strong></a>(expectation)</dt><dd><tt>检查当前主机状态符合预期</tt></dd></dl>
+ <dl><dt><a name="-check_go_charge_btn_exist"><strong>check_go_charge_btn_exist</strong></a>(expectation)</dt><dd><tt>检查待机页面回充按钮存在</tt></dd></dl>
+ <dl><dt><a name="-check_location_btn_exist"><strong>check_location_btn_exist</strong></a>(expectation)</dt><dd><tt>检查定位按钮是否存在</tt></dd></dl>
+ <dl><dt><a name="-check_map_manager_btn_exist"><strong>check_map_manager_btn_exist</strong></a>(expectation)</dt><dd><tt>检查地图管理按钮存在</tt></dd></dl>
+ <dl><dt><a name="-check_mode_type"><strong>check_mode_type</strong></a>(expectation)</dt><dd><tt>#&nbsp;检查当前拖地模式显示正确</tt></dd></dl>
+ <dl><dt><a name="-check_stop_clean_btn_exist"><strong>check_stop_clean_btn_exist</strong></a>(expectation)</dt><dd><tt>检查清扫中结束按钮存在</tt></dd></dl>
+ <dl><dt><a name="-check_virtual_wall_btn_exist"><strong>check_virtual_wall_btn_exist</strong></a>(expectation)</dt><dd><tt>检查虚拟墙按钮存在</tt></dd></dl>
+ <dl><dt><a name="-click_auto_btn"><strong>click_auto_btn</strong></a>()</dt><dd><tt>点击AUTO按钮，开始清扫</tt></dd></dl>
+ <dl><dt><a name="-click_back_to_station_in_build_map"><strong>click_back_to_station_in_build_map</strong></a>()</dt><dd><tt>扫建中返回充电座,在弹窗中，点击返回充电座</tt></dd></dl>
+ <dl><dt><a name="-click_cancel"><strong>click_cancel</strong></a>()</dt><dd><tt>主机在清扫中右下角出现停止任务按钮<br>
+点击此按钮会出现返回充电座或结束任务的选项<br>
+点击取消</tt></dd></dl>
+ <dl><dt><a name="-click_cancel_in_build_map"><strong>click_cancel_in_build_map</strong></a>()</dt><dd><tt>扫建中返回充电座,在弹窗中，点击取消</tt></dd></dl>
+ <dl><dt><a name="-click_rightstop"><strong>click_rightstop</strong></a>()</dt><dd><tt>主机在清扫中右下角出现停止任务按钮<br>
+点击此按钮会出现回充或结束任务的选项</tt></dd></dl>
+ <dl><dt><a name="-click_stop_clean"><strong>click_stop_clean</strong></a>()</dt><dd><tt>主机在清扫中右下角出现停止任务按钮<br>
+点击此按钮会出现返回充电座或结束任务的选项<br>
+点击结束当前工作</tt></dd></dl>
+ <dl><dt><a name="-get_all_sweep_mode_name"><strong>get_all_sweep_mode_name</strong></a>()</dt><dd><tt>将所有的工作模式存储在一个数组列表中</tt></dd></dl>
+ <dl><dt><a name="-get_area"><strong>get_area</strong></a>()</dt><dd><tt>显示当前的清扫面积，显示包含数字和单位</tt></dd></dl>
+ <dl><dt><a name="-get_area_unit"><strong>get_area_unit</strong></a>()</dt><dd><tt>显示当前面积的单位</tt></dd></dl>
+ <dl><dt><a name="-get_auto_display_name"><strong>get_auto_display_name</strong></a>()</dt><dd><tt>获取自动实际显示的名称，验证是否字显示错误</tt></dd></dl>
+ <dl><dt><a name="-get_clean_area_tips"><strong>get_clean_area_tips</strong></a>()</dt><dd><tt>获取清扫面积字段显示的名称</tt></dd></dl>
+ <dl><dt><a name="-get_clean_time"><strong>get_clean_time</strong></a>()</dt><dd><tt>显示当前的清扫时长，显示包含数字和单位</tt></dd></dl>
+ <dl><dt><a name="-get_clean_time_tips"><strong>get_clean_time_tips</strong></a>()</dt><dd><tt>显示清扫时长这个字段的显示名称</tt></dd></dl>
+ <dl><dt><a name="-get_clean_time_unit"><strong>get_clean_time_unit</strong></a>()</dt><dd><tt>获取清扫时长的单位</tt></dd></dl>
+ <dl><dt><a name="-get_custom_display_name"><strong>get_custom_display_name</strong></a>()</dt><dd><tt>获取自定义实际显示的名称，验证是否字显示错误</tt></dd></dl>
+ <dl><dt><a name="-get_deebot_status"><strong>get_deebot_status</strong></a>()</dt><dd><tt>获取当前地宝状态</tt></dd></dl>
+ <dl><dt><a name="-get_map_name"><strong>get_map_name</strong></a>()</dt><dd><tt>多层地图打开，获取当前地图名称</tt></dd></dl>
+ <dl><dt><a name="-get_mode_type"><strong>get_mode_type</strong></a>()</dt><dd><tt>获取当前工作类型，此方法只在拖地和强拖下使用，清扫使用会报错</tt></dd></dl>
+ <dl><dt><a name="-get_pop_windows_info_in_build_map"><strong>get_pop_windows_info_in_build_map</strong></a>()</dt><dd><tt>扫建中返回充电座,有弹窗中，获取弹窗内容</tt></dd></dl>
+ <dl><dt><a name="-get_status_item_name"><strong>get_status_item_name</strong></a>()</dt><dd><tt>显示当前状态字段的显示名称</tt></dd></dl>
+ <dl><dt><a name="-get_zone_display_name"><strong>get_zone_display_name</strong></a>()</dt><dd><tt>获取区域实际显示的名称，验证是否字显示错误</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>poco</strong> = &lt;poco.drivers.android.uiautomation.AndroidUiautomationPoco object&gt;</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">lei.z</td></tr></table>
+</body></html>
